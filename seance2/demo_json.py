@@ -25,4 +25,4 @@ with open("data_updated.json", "w", encoding="utf-8") as f:
     # ensure_ascii=False permet de garder les accents (é, à, etc.)
     json.dump(contenu, f, indent=4, ensure_ascii=False)
 
-print("✅ Sauvegarde terminée dans 'data_updated.json'")
+print(" Sauvegarde terminée dans 'data_updated.json'")

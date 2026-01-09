@@ -7,7 +7,7 @@ class DataParser:
         """Initialise le parseur avec le chemin du fichier."""
         self.filepath = filepath
         
-        # Vérification défensive : est-ce que le fichier existe ?
+        # Vérification défensive 
         if not os.path.exists(filepath):
             raise FileNotFoundError(f" Erreur : Le fichier '{filepath}' est introuvable.")
 

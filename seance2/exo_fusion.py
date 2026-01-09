@@ -15,7 +15,7 @@ for nom_fichier in fichiers_a_fusionner:
         for employe in contenu:
             id_unique = employe['id']
             
-            # C'est ici que la magie opère :
+           
             # On stocke l'employé dans le dictionnaire avec son ID comme clé.
             # Si l'ID existe déjà, la nouvelle version remplace l'ancienne automatiquement.
             db_temporaire[id_unique] = employe
