@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<library>
+    <book>
+        <id>1</id>
+        <title>Le Petit Prince</title>
+        <author>Antoine de Saint-Exupéry</author>
+        <year>1943</year>
+    </book>
+    <book>
+        <id>2</id>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <year>1949</year>
+    </book>
+</library>

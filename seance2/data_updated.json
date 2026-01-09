@@ -1,0 +1,11 @@
+{
+    "cours": "Python Avancé",
+    "seance": 2,
+    "etudiants": [
+        "Alice",
+        "Bob",
+        "Charlie",
+        "David"
+    ],
+    "actif": true
+}
